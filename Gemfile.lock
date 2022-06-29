@@ -98,7 +98,7 @@ DEPENDENCIES
   kramdown-parser-gfm
   minima
   rake
-  webrick (~> 1.7)
+  webrick
 
 RUBY VERSION
    ruby 2.7.0p0
