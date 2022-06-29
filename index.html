@@ -32,7 +32,7 @@ layout: page
                     {% if category_percent == 0 %}
                     {% assign category_percent = 1 %}
                     {% endif %}
-                    {{ status_name }}:
+                    {{ status_name }}:Rw
                     <span class="active-points">{{ category_total }}</span><span class="total-points"> ({{ category_percent }}%)</span>
                 </li>
                 {% endfor %}
@@ -48,7 +48,7 @@ layout: page
             <span class="fw-bold">Accuracy Confidence:</span>
             <button type="submit" class="btn btn-primary" id="confidence-btn" data-toggle="tooltip" data-placement="right" title="" data-original-title="submit sources to improve this number">{{ confidence }}%</button>
             <p class="fw-bold">Estimated Completion on <u>Major Systems</u> Only:</p>
-            <a href="https://starcitizentracker.github.io/majorsystems/" style="color:white">
+            <a href="https://starcitizentrackerv3.github.io/majorsystems/" style="color:white">
                 <div class="progress">
                     <div class="progress-bar progress-bar-default progress-bar-striped" role="progressbar" style="width:{{ estimatedprogress }}%; cursor: pointer;" onclick="window.location='https://starcitizentracker.github.io/majorsystems/';">{{ estimatedprogress }}%</div>
                 </div>

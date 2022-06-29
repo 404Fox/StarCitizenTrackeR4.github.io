@@ -28,10 +28,9 @@ layout: page
                     data-facet-value="{{ status_name }}" data-select-single="true">
                     <i class="fa fa-fw fa-{{ status_data['icon'] }} "></i>
                     {% assign category_total = promises | where: "status",status_name | size %}
-                    {% assign category_percent = promises | where: "status",status_name | size | times: 100 | divided_by: total
-                    %}
+                    {% assign category_percent = promises | where: "status",status_name | size | times: 100 | divided_by: total %}
                     {% if category_percent == 0 %}
-                    {% assign category_percent = 1 %}
+                    {% assign category_percent = 0 %}
                     {% endif %}
                     {{ status_name }}:
                     <span class="active-points">{{ category_total }}</span><span
