@@ -1,13 +1,11 @@
 ---
 ---
-@import 'variables'
 
 body
-  padding-top: 50px
-  font-size: $font-size
+  font-size: 16px
 
 .navbar-form
-  border-top: 0px
+  border-top: 0
 
 .promises-header__close
   margin-top: -30px
@@ -26,7 +24,7 @@ body
   color: rgba(0, 0, 0, 0.5)
   font-style: normal
 
-// bootstrap v4-alpha colors for `compromised` - modified `muted`
+//Colors for buttons
 .btn-compromised
   color: #ffffff
   background-color: #a6b5bf
@@ -49,7 +47,6 @@ body
   background-color: #97a6af
   border-color: #97a6af
 
-// colors for `compromised`
 .btn-stagnant
   color: #ffffff
   background-color: #e86d35
@@ -71,9 +68,17 @@ body
   color: #ffffff
   background-color: #d86734
   border-color: #d86734
-  
 
-// remove buttons on category filters on mobile and keep icons only
+
+.btn-info
+  --bs-btn-color: #ffffff
+  --bs-btn-hover-color: #ffffff
+
+.btn-warning
+  --bs-btn-color: #ffffff
+  --bs-btn-hover-color: #ffffff
+
+//Remove buttons on category filters on mobile and keep icons only
 @media only screen and (max-width: 760px)
   .remove-on-mobile
     display: none
@@ -83,7 +88,7 @@ body
     margin: auto
     width: 70%
 
-//badge colors
+//Badge colors
 .badge-error
   background-color: #b94a48
 
@@ -99,41 +104,22 @@ body
 .badge-inverse
   background-color: #333333
 
+//List item colors
 
+.li-success
+  background-color: #dff0d8
 
+.li-info
+  background-color: #d9edf7
 
-// -----------------------------------------------------------------
+.li-warning
+  background-color: #fcf8e3
 
-// all other css selectors which require color 
+.li-danger
+  background-color: #f2dede
 
-// .btn-compromised
-//   background-color: #ccdde8
-//   border-color: #ccdde8
+.li-compromised
+  background-color: #ccdde8
 
-// .badge
-//   color: #ccdde8
-//   background-color: #fff
-
-// .label-compromised
-//   background-color: #ccdde8
-
-// .label-compromised
-//   background-color: #ccdde8
-
-// .progress-bar-compromised
-//   background-color: #ccdde8
-
-
-// new colors from bootstrap v4 alpha
-
-// .warning
-//   color: #d9534f!important
-
-// .danger
-//   color: #f0ad4e!important
-
-// .info
-//   color: #5bc0de!important
-
-// .success
-//   color: #5cb85c!important
+.li-stagnant
+  background-color: #fcddc4
