@@ -160,86 +160,86 @@ function Build_and_fill_Chart(para_Type) {
     }
     const History = [
         {"Not_implemented": 0, "Completed": 0, "date": "2012-10-01T07:00:00.000Z"},
-        {"In_alpha": 2, "Not_implemented": 14, "Completed": 1, "date": "2012-11-01T07:00:00.000Z"},
-        {"Not_implemented": 44, "Compromised": 1, "Completed": 7, "In_alpha": 3, "date": "2012-12-01T08:00:00.000Z"},
-        {"Not_implemented": 44, "Compromised": 1, "Completed": 7, "In_alpha": 3, "date": "2013-01-01T08:00:00.000Z"},
-        {"Completed": 8, "Not_implemented": 45, "Compromised": 1, "In_alpha": 3, "date": "2013-02-01T08:00:00.000Z"},
-        {"Completed": 9, "Not_implemented": 46, "Compromised": 1, "In_alpha": 3, "date": "2013-03-01T08:00:00.000Z"},
-        {"In_alpha": 4, "Not_implemented": 47, "Completed": 9, "Compromised": 1, "date": "2013-04-01T07:00:00.000Z"},
+        {"Not_implemented": 14, "In_alpha": 2, "Completed": 1, "date": "2012-11-01T07:00:00.000Z"},
+        {"Not_implemented": 44, "In_alpha": 3, "Completed": 7, "Compromised": 1, "date": "2012-12-01T08:00:00.000Z"},
+        {"Not_implemented": 44, "In_alpha": 3, "Completed": 7, "Compromised": 1, "date": "2013-01-01T08:00:00.000Z"},
+        {"Not_implemented": 45, "In_alpha": 3, "Completed": 8, "Compromised": 1, "date": "2013-02-01T08:00:00.000Z"},
+        {"Not_implemented": 46, "In_alpha": 3, "Completed": 9, "Compromised": 1, "date": "2013-03-01T08:00:00.000Z"},
+        {"Not_implemented": 47, "In_alpha": 4, "Completed": 9, "Compromised": 1, "date": "2013-04-01T07:00:00.000Z"},
         {"Not_implemented": 54, "In_alpha": 4, "Completed": 9, "Compromised": 1, "date": "2013-05-01T07:00:00.000Z"},
-        {"Completed": 11, "In_alpha": 5, "Not_implemented": 55, "Compromised": 1, "date": "2013-06-01T07:00:00.000Z"},
+        {"Not_implemented": 55, "In_alpha": 5, "Completed": 11, "Compromised": 1, "date": "2013-06-01T07:00:00.000Z"},
         {"Not_implemented": 66, "In_alpha": 6, "Completed": 11, "Compromised": 1, "date": "2013-07-01T07:00:00.000Z"},
         {"Not_implemented": 68, "In_alpha": 6, "Completed": 11, "Compromised": 1, "date": "2013-08-01T07:00:00.000Z"},
         {"Not_implemented": 70, "In_alpha": 6, "Completed": 11, "Compromised": 1, "date": "2013-09-01T07:00:00.000Z"},
-        {"Not_implemented": 73, "Completed": 12, "In_alpha": 6, "Compromised": 1, "date": "2013-10-01T07:00:00.000Z"},
-        {"In_alpha": 7, "Not_implemented": 74, "Completed": 12, "Compromised": 1, "date": "2013-11-01T07:00:00.000Z"},
+        {"Not_implemented": 73, "In_alpha": 6, "Completed": 12, "Compromised": 1, "date": "2013-10-01T07:00:00.000Z"},
+        {"Not_implemented": 74, "In_alpha": 7, "Completed": 12, "Compromised": 1, "date": "2013-11-01T07:00:00.000Z"},
         {"Not_implemented": 82, "In_alpha": 7, "Completed": 12, "Compromised": 1, "date": "2013-12-01T08:00:00.000Z"},
-        {"Completed": 17, "Not_implemented": 90, "In_alpha": 9, "Compromised": 1, "date": "2014-01-01T08:00:00.000Z"},
-        {"Not_implemented": 113, "Completed": 29, "In_alpha": 13, "Compromised": 2, "Broken": 1, "date": "2014-02-01T08:00:00.000Z"},
-        {"Not_implemented": 133, "In_alpha": 15, "Completed": 32, "Compromised": 2, "Broken": 1, "date": "2014-03-01T08:00:00.000Z"},
-        {"Not_implemented": 162, "In_alpha": 20, "Completed": 34, "Compromised": 2, "Broken": 1, "date": "2014-04-01T07:00:00.000Z"},
-        {"Not_implemented": 186, "Completed": 37, "In_alpha": 25, "Compromised": 2, "Broken": 1, "date": "2014-05-01T07:00:00.000Z"},
-        {"Not_implemented": 212, "Compromised": 3, "In_alpha": 27, "Completed": 37, "Broken": 1, "date": "2014-06-01T07:00:00.000Z"},
-        {"Not_implemented": 244, "Completed": 40, "Compromised": 3, "In_alpha": 27, "Broken": 2, "date": "2014-07-01T07:00:00.000Z"},
-        {"In_alpha": 28, "Not_implemented": 256, "Completed": 41, "Compromised": 3, "Broken": 2, "date": "2014-08-01T07:00:00.000Z"},
-        {"Not_implemented": 273, "Completed": 44, "In_alpha": 30, "Compromised": 3, "Broken": 2, "date": "2014-09-01T07:00:00.000Z"},
-        {"Not_implemented": 275, "In_alpha": 31, "Completed": 45, "Compromised": 3, "Broken": 2, "date": "2014-10-01T07:00:00.000Z"},
-        {"Not_implemented": 276, "In_alpha": 31, "Completed": 46, "Compromised": 3, "Broken": 2, "date": "2014-11-01T07:00:00.000Z"},
-        {"Not_implemented": 289, "In_alpha": 33, "Completed": 48, "Compromised": 4, "Broken": 2, "date": "2014-12-01T08:00:00.000Z"},
-        {"Completed": 49, "Not_implemented": 291, "In_alpha": 33, "Compromised": 4, "Broken": 2, "date": "2015-01-01T08:00:00.000Z"},
-        {"Completed": 56, "Not_implemented": 284, "In_alpha": 33, "Compromised": 4, "Broken": 8, "date": "2015-02-01T08:00:00.000Z"},
-        {"In_alpha": 35, "Completed": 56, "Not_implemented": 284, "Compromised": 4, "Broken": 8, "date": "2015-03-01T08:00:00.000Z"},
-        {"Not_implemented": 287, "In_alpha": 35, "Completed": 56, "Compromised": 4, "Broken": 8, "date": "2015-04-01T07:00:00.000Z"},
-        {"Not_implemented": 291, "In_alpha": 35, "Completed": 56, "Compromised": 4, "Broken": 8, "date": "2015-05-01T07:00:00.000Z"},
-        {"Compromised": 5, "Not_implemented": 291, "In_alpha": 35, "Completed": 56, "Broken": 9, "date": "2015-06-01T07:00:00.000Z"},
-        {"Not_implemented": 295, "Compromised": 5, "In_alpha": 35, "Completed": 56, "Broken": 10, "date": "2015-07-01T07:00:00.000Z"},
-        {"Not_implemented": 294, "Compromised": 5, "In_alpha": 35, "Completed": 56, "Broken": 11, "date": "2015-08-01T07:00:00.000Z"},
-        {"In_alpha": 37, "Not_implemented": 299, "Compromised": 5, "Completed": 56, "Broken": 11, "date": "2015-09-01T07:00:00.000Z"},
-        {"Not_implemented": 319, "In_alpha": 38, "Compromised": 5, "Completed": 56, "Broken": 12, "date": "2015-10-01T07:00:00.000Z"},
-        {"Not_implemented": 324, "In_alpha": 38, "Compromised": 5, "Completed": 56, "Broken": 12, "date": "2015-11-01T07:00:00.000Z"},
-        {"Not_implemented": 327, "In_alpha": 38, "Compromised": 5, "Completed": 56, "Broken": 12, "date": "2015-12-01T08:00:00.000Z"},
-        {"Not_implemented": 329, "In_alpha": 38, "Compromised": 5, "Completed": 56, "Broken": 13, "date": "2016-01-01T08:00:00.000Z"},
-        {"Not_implemented": 328, "Completed": 57, "In_alpha": 38, "Compromised": 5, "Broken": 19, "date": "2016-02-01T08:00:00.000Z"},
-        {"Not_implemented": 336, "In_alpha": 39, "Completed": 57, "Compromised": 5, "Broken": 19, "date": "2016-03-01T08:00:00.000Z"},
-        {"Not_implemented": 345, "In_alpha": 40, "Completed": 57, "Compromised": 5, "Broken": 19, "date": "2016-04-01T07:00:00.000Z"},
-        {"Not_implemented": 347, "In_alpha": 40, "Completed": 57, "Compromised": 5, "Broken": 19, "date": "2016-05-01T07:00:00.000Z"},
-        {"Completed": 59, "Not_implemented": 345, "In_alpha": 40, "Compromised": 5, "Broken": 20, "date": "2016-06-01T07:00:00.000Z"},
-        {"Completed": 60, "Not_implemented": 344, "In_alpha": 40, "Compromised": 5, "Broken": 20, "date": "2016-07-01T07:00:00.000Z"},
-        {"Not_implemented": 345, "Completed": 60, "In_alpha": 40, "Compromised": 5, "Broken": 20, "date": "2016-08-01T07:00:00.000Z"},
-        {"Not_implemented": 362, "In_alpha": 44, "Compromised": 6, "Completed": 60, "Broken": 20, "date": "2016-09-01T07:00:00.000Z"},
-        {"In_alpha": 45, "Not_implemented": 363, "Compromised": 6, "Completed": 60, "Broken": 20, "date": "2016-10-01T07:00:00.000Z"},
-        {"Not_implemented": 365, "In_alpha": 45, "Compromised": 6, "Completed": 60, "Broken": 20, "Stagnant": 3, "date": "2016-11-01T07:00:00.000Z"},
-        {"Not_implemented": 349, "In_alpha": 45, "Compromised": 6, "Completed": 60, "Broken": 21, "Stagnant": 19, "date": "2016-12-01T08:00:00.000Z"},
-        {"Not_implemented": 337, "In_alpha": 45, "Compromised": 6, "Completed": 60, "Broken": 21, "Stagnant": 31, "date": "2017-01-01T08:00:00.000Z"},
-        {"Not_implemented": 329, "In_alpha": 45, "Compromised": 6, "Completed": 62, "Broken": 27, "Stagnant": 32, "date": "2017-02-01T08:00:00.000Z"},
-        {"Not_implemented": 331, "In_alpha": 45, "Compromised": 6, "Completed": 62, "Broken": 27, "Stagnant": 32, "date": "2017-03-01T08:00:00.000Z"},
-        {"Not_implemented": 329, "In_alpha": 45, "Compromised": 6, "Completed": 62, "Broken": 28, "Stagnant": 33, "date": "2017-04-01T07:00:00.000Z"},
-        {"Not_implemented": 325, "Broken": 30, "In_alpha": 45, "Compromised": 6, "Completed": 62, "Stagnant": 35, "date": "2017-05-01T07:00:00.000Z"},
-        {"Not_implemented": 320, "Broken": 30, "In_alpha": 45, "Compromised": 6, "Completed": 62, "Stagnant": 40, "date": "2017-06-01T07:00:00.000Z"},
-        {"Not_implemented": 310, "Broken": 30, "In_alpha": 45, "Compromised": 6, "Completed": 62, "Stagnant": 50, "date": "2017-07-01T07:00:00.000Z"},
-        {"In_alpha": 46, "Broken": 31, "Not_implemented": 307, "Compromised": 6, "Completed": 63, "Stagnant": 51, "date": "2017-08-01T07:00:00.000Z"},
-        {"Not_implemented": 307, "In_alpha": 46, "Broken": 31, "Compromised": 6, "Completed": 63, "Stagnant": 53, "date": "2017-09-01T07:00:00.000Z"},
-        {"Not_implemented": 305, "In_alpha": 46, "Broken": 31, "Compromised": 6, "Completed": 63, "Stagnant": 55, "date": "2017-10-01T07:00:00.000Z"},
-        {"Not_implemented": 298, "In_alpha": 46, "Broken": 32, "Completed": 69, "Compromised": 6, "Stagnant": 57, "date": "2017-11-01T07:00:00.000Z"},
-        {"Not_implemented": 298, "In_alpha": 46, "Broken": 32, "Completed": 70, "Compromised": 6, "Stagnant": 57, "date": "2017-12-01T08:00:00.000Z"},
-        {"Not_implemented": 290, "In_alpha": 47, "Broken": 35, "Completed": 70, "Compromised": 6, "Stagnant": 64, "date": "2018-01-01T08:00:00.000Z"},
-        {"Not_implemented": 283, "In_alpha": 47, "Broken": 35, "Completed": 70, "Compromised": 6, "Stagnant": 72, "date": "2018-02-01T08:00:00.000Z"},
-        {"Not_implemented": 259, "In_alpha": 47, "Broken": 38, "Completed": 70, "Compromised": 6, "Stagnant": 94, "date": "2018-03-01T08:00:00.000Z"},
-        {"Completed": 71, "Not_implemented": 246, "In_alpha": 47, "Broken": 38, "Compromised": 6, "Stagnant": 114, "date": "2018-04-01T07:00:00.000Z"},
-        {"Not_implemented": 223, "Completed": 71, "In_alpha": 47, "Broken": 38, "Compromised": 6, "Stagnant": 140, "date": "2018-05-01T07:00:00.000Z"},
-        {"Not_implemented": 200, "Completed": 71, "In_alpha": 47, "Broken": 38, "Compromised": 6, "Stagnant": 163, "date": "2018-06-01T07:00:00.000Z"},
-        {"Not_implemented": 176, "Completed": 71, "In_alpha": 47, "Broken": 38, "Compromised": 6, "Stagnant": 187, "date": "2018-07-01T07:00:00.000Z"},
-        {"Not_implemented": 146, "Completed": 71, "In_alpha": 47, "Broken": 39, "Compromised": 6, "Stagnant": 217, "date": "2018-08-01T07:00:00.000Z"},
-        {"In_alpha": 48, "Not_implemented": 138, "Completed": 71, "Broken": 39, "Compromised": 6, "Stagnant": 227, "date": "2018-09-01T07:00:00.000Z"},
+        {"Not_implemented": 90, "In_alpha": 9, "Completed": 17, "Compromised": 1, "date": "2014-01-01T08:00:00.000Z"},
+        {"Not_implemented": 113, "In_alpha": 13, "Completed": 29, "Broken": 1, "Compromised": 2, "date": "2014-02-01T08:00:00.000Z"},
+        {"Not_implemented": 133, "In_alpha": 15, "Completed": 32, "Broken": 1, "Compromised": 2, "date": "2014-03-01T08:00:00.000Z"},
+        {"Not_implemented": 162, "In_alpha": 20, "Completed": 34, "Broken": 1, "Compromised": 2, "date": "2014-04-01T07:00:00.000Z"},
+        {"Not_implemented": 186, "In_alpha": 25, "Completed": 37, "Broken": 1, "Compromised": 2, "date": "2014-05-01T07:00:00.000Z"},
+        {"Not_implemented": 212, "In_alpha": 27, "Completed": 37, "Broken": 1, "Compromised": 3, "date": "2014-06-01T07:00:00.000Z"},
+        {"Not_implemented": 244, "In_alpha": 27, "Completed": 40, "Broken": 2, "Compromised": 3, "date": "2014-07-01T07:00:00.000Z"},
+        {"Not_implemented": 256, "In_alpha": 28, "Completed": 41, "Broken": 2, "Compromised": 3, "date": "2014-08-01T07:00:00.000Z"},
+        {"Not_implemented": 273, "In_alpha": 30, "Completed": 44, "Broken": 2, "Compromised": 3, "date": "2014-09-01T07:00:00.000Z"},
+        {"Not_implemented": 275, "In_alpha": 31, "Completed": 45, "Broken": 2, "Compromised": 3, "date": "2014-10-01T07:00:00.000Z"},
+        {"Not_implemented": 276, "In_alpha": 31, "Completed": 46, "Broken": 2, "Compromised": 3, "date": "2014-11-01T07:00:00.000Z"},
+        {"Not_implemented": 289, "In_alpha": 33, "Completed": 48, "Broken": 2, "Compromised": 4, "date": "2014-12-01T08:00:00.000Z"},
+        {"Not_implemented": 291, "In_alpha": 33, "Completed": 49, "Broken": 2, "Compromised": 4, "date": "2015-01-01T08:00:00.000Z"},
+        {"Not_implemented": 284, "In_alpha": 33, "Completed": 56, "Broken": 8, "Compromised": 4, "date": "2015-02-01T08:00:00.000Z"},
+        {"Not_implemented": 284, "In_alpha": 35, "Completed": 56, "Broken": 8, "Compromised": 4, "date": "2015-03-01T08:00:00.000Z"},
+        {"Not_implemented": 287, "In_alpha": 35, "Completed": 56, "Broken": 8, "Compromised": 4, "date": "2015-04-01T07:00:00.000Z"},
+        {"Not_implemented": 291, "In_alpha": 35, "Completed": 56, "Broken": 8, "Compromised": 4, "date": "2015-05-01T07:00:00.000Z"},
+        {"Not_implemented": 291, "In_alpha": 35, "Completed": 56, "Broken": 9, "Compromised": 5, "date": "2015-06-01T07:00:00.000Z"},
+        {"Not_implemented": 295, "In_alpha": 35, "Completed": 56, "Broken": 10, "Compromised": 5, "date": "2015-07-01T07:00:00.000Z"},
+        {"Not_implemented": 294, "In_alpha": 35, "Completed": 56, "Broken": 11, "Compromised": 5, "date": "2015-08-01T07:00:00.000Z"},
+        {"Not_implemented": 299, "In_alpha": 37, "Completed": 56, "Broken": 11, "Compromised": 5, "date": "2015-09-01T07:00:00.000Z"},
+        {"Not_implemented": 319, "In_alpha": 38, "Completed": 56, "Broken": 12, "Compromised": 5, "date": "2015-10-01T07:00:00.000Z"},
+        {"Not_implemented": 324, "In_alpha": 38, "Completed": 56, "Broken": 12, "Compromised": 5, "date": "2015-11-01T07:00:00.000Z"},
+        {"Not_implemented": 327, "In_alpha": 38, "Completed": 56, "Broken": 12, "Compromised": 5, "date": "2015-12-01T08:00:00.000Z"},
+        {"Not_implemented": 329, "In_alpha": 38, "Completed": 56, "Broken": 13, "Compromised": 5, "date": "2016-01-01T08:00:00.000Z"},
+        {"Not_implemented": 328, "In_alpha": 38, "Completed": 57, "Broken": 19, "Compromised": 5, "date": "2016-02-01T08:00:00.000Z"},
+        {"Not_implemented": 336, "In_alpha": 39, "Completed": 57, "Broken": 19, "Compromised": 5, "date": "2016-03-01T08:00:00.000Z"},
+        {"Not_implemented": 345, "In_alpha": 40, "Completed": 57, "Broken": 19, "Compromised": 5, "date": "2016-04-01T07:00:00.000Z"},
+        {"Not_implemented": 347, "In_alpha": 40, "Completed": 57, "Broken": 19, "Compromised": 5, "date": "2016-05-01T07:00:00.000Z"},
+        {"Not_implemented": 345, "In_alpha": 40, "Completed": 59, "Broken": 20, "Compromised": 5, "date": "2016-06-01T07:00:00.000Z"},
+        {"Not_implemented": 344, "In_alpha": 40, "Completed": 60, "Broken": 20, "Compromised": 5, "date": "2016-07-01T07:00:00.000Z"},
+        {"Not_implemented": 345, "In_alpha": 40, "Completed": 60, "Broken": 20, "Compromised": 5, "date": "2016-08-01T07:00:00.000Z"},
+        {"Not_implemented": 362, "In_alpha": 44, "Completed": 60, "Broken": 20, "Compromised": 6, "date": "2016-09-01T07:00:00.000Z"},
+        {"Not_implemented": 363, "In_alpha": 45, "Completed": 60, "Broken": 20, "Compromised": 6, "date": "2016-10-01T07:00:00.000Z"},
+        {"Not_implemented": 365, "In_alpha": 45, "Completed": 60, "Broken": 20, "Compromised": 6, "Stagnant": 3, "date": "2016-11-01T07:00:00.000Z"},
+        {"Not_implemented": 349, "In_alpha": 45, "Completed": 60, "Broken": 21, "Compromised": 6, "Stagnant": 19, "date": "2016-12-01T08:00:00.000Z"},
+        {"Not_implemented": 337, "In_alpha": 45, "Completed": 60, "Broken": 21, "Compromised": 6, "Stagnant": 31, "date": "2017-01-01T08:00:00.000Z"},
+        {"Not_implemented": 329, "In_alpha": 45, "Completed": 62, "Broken": 27, "Compromised": 6, "Stagnant": 32, "date": "2017-02-01T08:00:00.000Z"},
+        {"Not_implemented": 331, "In_alpha": 45, "Completed": 62, "Broken": 27, "Compromised": 6, "Stagnant": 32, "date": "2017-03-01T08:00:00.000Z"},
+        {"Not_implemented": 329, "In_alpha": 45, "Completed": 62, "Broken": 28, "Compromised": 6, "Stagnant": 33, "date": "2017-04-01T07:00:00.000Z"},
+        {"Not_implemented": 325, "In_alpha": 45, "Completed": 62, "Broken": 30, "Compromised": 6, "Stagnant": 35, "date": "2017-05-01T07:00:00.000Z"},
+        {"Not_implemented": 320, "In_alpha": 45, "Completed": 62, "Broken": 30, "Compromised": 6, "Stagnant": 40, "date": "2017-06-01T07:00:00.000Z"},
+        {"Not_implemented": 310, "In_alpha": 45, "Completed": 62, "Broken": 30, "Compromised": 6, "Stagnant": 50, "date": "2017-07-01T07:00:00.000Z"},
+        {"Not_implemented": 307, "In_alpha": 46, "Completed": 63, "Broken": 31, "Compromised": 6, "Stagnant": 51, "date": "2017-08-01T07:00:00.000Z"},
+        {"Not_implemented": 307, "In_alpha": 46, "Completed": 63, "Broken": 31, "Compromised": 6, "Stagnant": 53, "date": "2017-09-01T07:00:00.000Z"},
+        {"Not_implemented": 305, "In_alpha": 46, "Completed": 63, "Broken": 31, "Compromised": 6, "Stagnant": 55, "date": "2017-10-01T07:00:00.000Z"},
+        {"Not_implemented": 298, "In_alpha": 46, "Completed": 69, "Broken": 32, "Compromised": 6, "Stagnant": 57, "date": "2017-11-01T07:00:00.000Z"},
+        {"Not_implemented": 298, "In_alpha": 46, "Completed": 70, "Broken": 32, "Compromised": 6, "Stagnant": 57, "date": "2017-12-01T08:00:00.000Z"},
+        {"Not_implemented": 290, "In_alpha": 47, "Completed": 70, "Broken": 35, "Compromised": 6, "Stagnant": 64, "date": "2018-01-01T08:00:00.000Z"},
+        {"Not_implemented": 283, "In_alpha": 47, "Completed": 70, "Broken": 35, "Compromised": 6, "Stagnant": 72, "date": "2018-02-01T08:00:00.000Z"},
+        {"Not_implemented": 259, "In_alpha": 47, "Completed": 70, "Broken": 38, "Compromised": 6, "Stagnant": 94, "date": "2018-03-01T08:00:00.000Z"},
+        {"Not_implemented": 246, "In_alpha": 47, "Completed": 71, "Broken": 38, "Compromised": 6, "Stagnant": 114, "date": "2018-04-01T07:00:00.000Z"},
+        {"Not_implemented": 223, "In_alpha": 47, "Completed": 71, "Broken": 38, "Compromised": 6, "Stagnant": 140, "date": "2018-05-01T07:00:00.000Z"},
+        {"Not_implemented": 200, "In_alpha": 47, "Completed": 71, "Broken": 38, "Compromised": 6, "Stagnant": 163, "date": "2018-06-01T07:00:00.000Z"},
+        {"Not_implemented": 176, "In_alpha": 47, "Completed": 71, "Broken": 38, "Compromised": 6, "Stagnant": 187, "date": "2018-07-01T07:00:00.000Z"},
+        {"Not_implemented": 146, "In_alpha": 47, "Completed": 71, "Broken": 39, "Compromised": 6, "Stagnant": 217, "date": "2018-08-01T07:00:00.000Z"},
+        {"Not_implemented": 138, "In_alpha": 48, "Completed": 71, "Broken": 39, "Compromised": 6, "Stagnant": 227, "date": "2018-09-01T07:00:00.000Z"},
         {"Not_implemented": 122, "In_alpha": 49, "Completed": 71, "Broken": 39, "Compromised": 6, "Stagnant": 244, "date": "2018-10-01T07:00:00.000Z"},
         {"Not_implemented": 126, "In_alpha": 49, "Completed": 71, "Broken": 39, "Compromised": 6, "Stagnant": 245, "date": "2018-11-01T07:00:00.000Z"},
-        {"Not_implemented": 123, "Completed": 72, "In_alpha": 49, "Broken": 39, "Compromised": 6, "Stagnant": 248, "date": "2018-12-01T08:00:00.000Z"},
-        {"Not_implemented": 116, "Completed": 72, "In_alpha": 49, "Broken": 39, "Compromised": 6, "Stagnant": 257, "date": "2019-01-01T08:00:00.000Z"},
-        {"Not_implemented": 114, "Completed": 72, "In_alpha": 49, "Broken": 39, "Compromised": 6, "Stagnant": 259, "date": "2019-02-01T08:00:00.000Z"},
-        {"Not_implemented": 115, "Completed": 72, "In_alpha": 49, "Broken": 39, "Compromised": 6, "Stagnant": 259, "date": "2019-03-01T08:00:00.000Z"},
-        {"In_alpha": 50, "Not_implemented": 115, "Completed": 72, "Broken": 39, "Compromised": 6, "Stagnant": 259, "date": "2019-04-01T07:00:00.000Z"},
-        {"In_alpha": 50, "Not_implemented": 115, "Completed": 72, "Broken": 39, "Compromised": 6, "Stagnant": 259, "date": "2019-05-01T07:00:00.000Z"},
-        {"In_alpha": 50, "Not_implemented": 110, "Completed": 72, "Broken": 39, "Compromised": 6, "Stagnant": 264, "date": "2019-06-01T07:00:00.000Z"},
+        {"Not_implemented": 123, "In_alpha": 49, "Completed": 72, "Broken": 39, "Compromised": 6, "Stagnant": 248, "date": "2018-12-01T08:00:00.000Z"},
+        {"Not_implemented": 116, "In_alpha": 49, "Completed": 72, "Broken": 39, "Compromised": 6, "Stagnant": 257, "date": "2019-01-01T08:00:00.000Z"},
+        {"Not_implemented": 114, "In_alpha": 49, "Completed": 72, "Broken": 39, "Compromised": 6, "Stagnant": 259, "date": "2019-02-01T08:00:00.000Z"},
+        {"Not_implemented": 115, "In_alpha": 49, "Completed": 72, "Broken": 39, "Compromised": 6, "Stagnant": 259, "date": "2019-03-01T08:00:00.000Z"},
+        {"Not_implemented": 115, "In_alpha": 50, "Completed": 72, "Broken": 39, "Compromised": 6, "Stagnant": 259, "date": "2019-04-01T07:00:00.000Z"},
+        {"Not_implemented": 115, "In_alpha": 50, "Completed": 72, "Broken": 39, "Compromised": 6, "Stagnant": 259, "date": "2019-05-01T07:00:00.000Z"},
+        {"Not_implemented": 110, "In_alpha": 50, "Completed": 72, "Broken": 39, "Compromised": 6, "Stagnant": 264, "date": "2019-06-01T07:00:00.000Z"},
         {"Not_implemented": 111, "In_alpha": 50, "Completed": 72, "Broken": 39, "Compromised": 6, "Stagnant": 264, "date": "2019-07-01T07:00:00.000Z"},
         {"Not_implemented": 106, "In_alpha": 50, "Completed": 72, "Broken": 39, "Compromised": 6, "Stagnant": 269, "date": "2019-08-01T07:00:00.000Z"},
         {"Not_implemented": 107, "In_alpha": 50, "Completed": 72, "Broken": 39, "Compromised": 6, "Stagnant": 269, "date": "2019-09-01T07:00:00.000Z"},
@@ -291,32 +291,37 @@ function Build_and_fill_Chart(para_Type) {
             backgroundColor: "#f2dede",
             borderColor: "#c56d6d",
             borderWidth: 1,
-            data: brokenArray,
-            spanGaps: true,
+            fill: 'origin',
+            data: brokenArray
         }, {
             label: "Stagnant",
             backgroundColor: "#fcddc4",
             borderColor: "#f5903d",
+            fill: 'origin',
             data: stagnantArray
         }, {
             label: "Not implemented",
             backgroundColor: "#fcf8e3",
             borderColor: "#ecd046",
+            fill: 'origin',
             data: notimplementedArray
         }, {
             label: "In alpha",
             backgroundColor: "#d9edf7",
             borderColor: "#57afdb",
+            fill: 'origin',
             data: inalphaArray
         }, {
             label: "Compromised",
             backgroundColor: "#ccdde8",
             borderColor: "#72a1c0",
+            fill: 'origin',
             data: compromisedArray
         }, {
             label: "Completed",
             backgroundColor: "#dff0d8",
             borderColor: "#86c66c",
+            fill: 'origin',
             data: completedArray
         }]
     };
@@ -335,27 +340,29 @@ function Build_and_fill_Chart(para_Type) {
         AllChart.config.data = data;
         AllChart.update();
     } else {
-        Chart.defaults.global.legend.display = false;
+        Chart.defaults.plugins.legend.display = false;
         AllChart = new Chart(ctx, {
             type: 'line',
             data: data,
             options: {
+                interaction: {
+                    mode: 'index'
+                },
+                spanGaps: true,
+                animation: false,
                 tooltips: {
                     mode: "label",
                     position: "nearest",
-                    titleAlign: "center",
-                    callbacks: {
-                        title: function (data) {
-                            return moment(data["0"].xLabel).format("MMMM YYYY");
-                        }
-                    }
+                    titleAlign: "center"
                 },
                 scales: {
-                    xAxes: [{
-                        stacked: true,
-                        ticks: {autoSkip: false},
+                    x: {
                         type: 'time',
+                        min: new Date('2012-10-01').valueOf(),
+                        stacked: true,
+                        ticks: { autoSkip: false },
                         time: {
+                            tooltipFormat:'MMM YYYY',
                             displayFormats: {
                                 'millisecond': 'MMM YYYY',
                                 'second': 'MMM YYYY',
@@ -368,10 +375,10 @@ function Build_and_fill_Chart(para_Type) {
                                 'year': 'MMM YYYY',
                             }
                         }
-                    }],
-                    yAxes: [{
+                    },
+                    y: {
                         stacked: true
-                    }]
+                    }
                 }
             }
         });
