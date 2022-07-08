@@ -40,19 +40,22 @@ layout: page
             <canvas id="timechart"></canvas>
         </div>
         <div class="col-md container-fluid">
-            <p>In 2012, Chris Roberts went on Kickstarter with his pitch for a space simulation game "Star Citizen" and a Wing Commander style single player mode entitled "Squadron 42"</p>
-            <p>Much has been promised to backers over the course of the last <span id="years-since-kickstarter"></span> years. Expectations for the titles are stratospheric, bordering on outlandish; with Chris himself setting the tone.</p>
-            <p class="fw-bold">StarCitizen Tracker is a good faith attempt to catalog public claims and commitments made by Cloud Imperium Games Corporation. It is intended to be useful and constructive for both fans and developers. In the absence of similar resources it exists because the need is indeed great.</p>
-            <p>This is a crowdsourced endeavor. If you spot an inaccuracy, please <a href="https://goo.gl/forms/xMK6E5f5errVwriA3">submit it.</a></p>
-
-            <span class="fw-bold">Accuracy Confidence:</span>
-            <button type="submit" class="btn btn-primary" id="confidence-btn" data-bs-toggle="tooltip" data-bs-placement="right" title="Submit sources to improve this number">{{ confidence }}%</button>
-            <p class="fw-bold">Estimated Completion on <u>Major Systems</u> Only:</p>
-            <a href="https://starcitizentrackerv3.github.io/majorsystems/" class="text-white">
-                <div class="progress">
-                    <div class="progress-bar progress-bar-default progress-bar-striped" role="progressbar" title="{{ estimatedprogress }}%" style="width:{{ estimatedprogress }}%; cursor: pointer;" onclick="window.location='https://starcitizentracker.github.io/majorsystems/';">{{ estimatedprogress }}%</div>
+                <div class="col">
+                    <p>In 2012, Chris Roberts went on Kickstarter with his pitch for a space simulation game "Star Citizen" and a Wing Commander style single player mode entitled "Squadron 42"</p>
+                    <p>Much has been promised to backers over the course of the last <span id="years-since-kickstarter"></span> years. Expectations for the titles are stratospheric, bordering on outlandish; with Chris himself setting the tone.</p>
+                    <p class="fw-bold">StarCitizen Tracker is a good faith attempt to catalog public claims and commitments made by Cloud Imperium Games Corporation. It is intended to be useful and constructive for both fans and developers. In the absence of similar resources it exists because the need is indeed great.</p>
+                    <p>This is a crowdsourced endeavor. If you spot an inaccuracy, please <a href="https://goo.gl/forms/xMK6E5f5errVwriA3">submit it.</a></p>
                 </div>
-            </a>
+                <div class="col">
+                    <span class="fw-bold">Accuracy Confidence:</span>
+                    <button type="submit" class="btn btn-primary" id="confidence-btn" data-bs-toggle="tooltip" data-bs-placement="right" title="Submit sources to improve this number">{{ confidence }}%</button>
+                    <p class="fw-bold">Estimated Completion on <u>Major Systems</u> Only:</p>
+                    <a href="https://starcitizentrackerv3.github.io/majorsystems/" class="text-white">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-default progress-bar-striped" role="progressbar" title="{{ estimatedprogress }}%" style="width:{{ estimatedprogress }}%; cursor: pointer;" onclick="window.location='https://starcitizentracker.github.io/majorsystems/';">{{ estimatedprogress }}%</div>
+                        </div>
+                    </a>
+                </div>
         </div>
     </div>
 </section>
