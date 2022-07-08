@@ -50,7 +50,7 @@ layout: page
             <p class="fw-bold">Estimated Completion on <u>Major Systems</u> Only:</p>
             <a href="https://starcitizentrackerv3.github.io/majorsystems/" class="text-white">
                 <div class="progress">
-                    <div class="progress-bar progress-bar-default progress-bar-striped" role="progressbar" style="width:{{ estimatedprogress }}%; cursor: pointer;" onclick="window.location='https://starcitizentracker.github.io/majorsystems/';">{{ estimatedprogress }}%</div>
+                    <div class="progress-bar progress-bar-default progress-bar-striped" role="progressbar" title="{{ estimatedprogress }}%" style="width:{{ estimatedprogress }}%; cursor: pointer;" onclick="window.location='https://starcitizentracker.github.io/majorsystems/';">{{ estimatedprogress }}%</div>
                 </div>
             </a>
         </div>
@@ -155,8 +155,8 @@ layout: page
                          </td> -->
                     <td class="promise__actions">
                         <!-- Clickable actions -->
-                        <a href="#{{ promise.title | replace: ' ', '_' }}" rel="nofollow">
-                            <i class="fa fa-fw fa-link text-muted" aria-hidden="true"></i>
+                        <a href="#{{ promise.title | replace: ' ', '_' }}" class="text-decoration-none" rel="nofollow">
+                            <i class="fa fa-fw fa-link text-muted"></i>
                         </a>
                         <!-- Hoverover quote -->
                         {% if promise.quote contains '|' %}
@@ -168,7 +168,7 @@ layout: page
                         {% assign quotetext = promise.quote %}
                         {% endif %}
                         {% if promise.quote != undefined %}
-                        <i class="fa fa-fw fa-quote-left" data-bs-toggle="tooltip" title="{{ quotee }}: &ldquo;{{ quotetext }}&rdquo;"></i>
+                        <i class="fa fa-fw fa-quote-left" role="tooltip" data-bs-toggle="tooltip" title="{{ quotee }}: &ldquo;{{ quotetext }}&rdquo;"></i>
                         {% endif %}
                     </td>
                 </tr>
