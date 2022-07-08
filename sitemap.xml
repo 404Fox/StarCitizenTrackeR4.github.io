@@ -10,24 +10,9 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://starcitizentrackerv3.github.io/ships/</loc>
+  <loc>https://starcitizentrackerv3.github.io/ships.html</loc>
   <lastmod>2022-07-04T20:47:12+00:00</lastmod>
   <priority>0.85</priority>
-</url>
-<url>
-  <loc>https://starcitizentrackerv3.github.io/majorsystems/</loc>
-  <lastmod>2022-07-04T20:47:12+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://starcitizentrackerv3.github.io/faq/</loc>
-  <lastmod>2022-07-04T20:47:12+00:00</lastmod>
-  <priority>0.50</priority>
-</url>
-<url>
-  <loc>https://starcitizentrackerv3.github.io/graph/</loc>
-  <lastmod>2022-07-04T20:47:12+00:00</lastmod>
-  <priority>0.30</priority>
 </url>
 
 </urlset>
