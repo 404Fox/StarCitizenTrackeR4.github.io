@@ -1,8 +1,8 @@
 # Star Citizen Tracker V3
 
-Star Citizen Tracker V3 is forked from [StarCitizen Tracker](https://starcitizentracker.github.io/)
+Star Citizen Tracker V3 is forked from original [StarCitizen Tracker](https://starcitizentracker.github.io/)
 
-[**MIT license**](https://github.com/StarCitizenTracker/StarCitizenTracker.github.io/blob/master/LICENSE.md)
+[**MIT license**](https://github.com/starcitizentrackerv3/StarCitizenTrackerV3.github.io/blob/master/LICENSE.md)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)
 
@@ -13,8 +13,11 @@ Star Citizen Tracker V3 is forked from [StarCitizen Tracker](https://starcitizen
 We'd love to get contributions from you! **Please do not sign source code.**
 
 # To Do and Ideas
+- [ ] Complete rework Star Citizen Tracker V3 page
 - [ ] Use source links in /majorsystems
 - [x] Remove ship category from main page
+- [x] Make the FAQ and Press pages prettier
+- [x] Update FAQ
 - [x] Find more active editors for data entry
 - [x] Update about page
 - [x] Accuracy confidence percentage
