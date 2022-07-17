@@ -15,10 +15,15 @@
     });
 
     // Tabs
-    $('#myTabs a').click(function (e) {
-        e.preventDefault();
-        $(this).tab('show');
-    });
+    const triggerTabList = document.querySelectorAll('#myTabs a')
+    triggerTabList.forEach(triggerEl => {
+        const tabTrigger = new bootstrap.Tab(triggerEl)
+
+        triggerEl.addEventListener('click', event => {
+            event.preventDefault()
+            tabTrigger.show()
+        })
+    })
 
     // Find any within a facet
     function foundAny(facets, compareItem) {

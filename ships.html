@@ -8,7 +8,6 @@ layout: page
 {% assign total = promises | size %}
 {% assign categories = promises | map: 'category' | uniq %}
 
-
 <section class="container mt-3" id="promises-header">
     <div class="row">
         <div class="col">
@@ -24,8 +23,7 @@ layout: page
                 {% for status in statuses %}
                 {% assign status_name = status[0] %}
                 {% assign status_data = status[1] %}
-                <li class="list-group-item list-group-item-{{ status_data['color'] }}" data-list-facet="js-promise-status"
-                    data-facet-value="{{ status_name }}" data-select-single="true">
+                <li class="list-group-item list-group-item-{{ status_data['color'] }}" data-list-facet="js-promise-status" data-facet-value="{{ status_name }}" data-select-single="true">
                     <i class="fa fa-fw fa-{{ status_data['icon'] }} "></i>
                     {% assign category_total = promises | where: "status",status_name | size %}
                     {% assign category_percent = promises | where: "status",status_name | size | times: 100 | divided_by: total %}
@@ -33,8 +31,8 @@ layout: page
                     {% assign category_percent = 0 %}
                     {% endif %}
                     {{ status_name }}:
-                    <span class="active-points">{{ category_total }}</span><span
-                        class="total-points"> ({{ category_percent }}%)</span>
+                    <span class="active-points">{{ category_total }}</span>
+                    <span class="total-points"> ({{ category_percent }}%)</span>
                 </li>
                 {% endfor %}
             </ul>
@@ -54,9 +52,7 @@ layout: page
                         <input id="search" type="text" class="form-control search" placeholder="Search">
                     </div>
                     <div class="col">
-                        <button class="promises__category--reset btn btn-primary">Clear<i
-                                class="fa fa-fw fa-filter"></i><span id="count">{{ total }}</span>/{{ total }}
-                        </button>
+                        <button class="promises__category--reset btn btn-primary">Clear<i class="fa fa-fw fa-filter"></i><span id="count">{{ total }}</span>/{{ total }}</button>
                     </div>
                 </div>
             </form>
@@ -67,8 +63,7 @@ layout: page
                     {% for status in statuses %}
                     {% assign status_name = status[0] %}
                     {% assign status_data = status[1] %}
-                    <button class="btn btn-{{ status_data['color'] }}" data-list-facet="js-promise-status"
-                            data-facet-value="{{ status_name }}" data-select-single="true">
+                    <button class="btn btn-{{ status_data['color'] }}" data-list-facet="js-promise-status" data-facet-value="{{ status_name }}" data-select-single="true">
                         <i class="fa fa-{{ status_data['icon'] }} fa-fw" aria-hidden="true"></i>
                         <span class="remove-on-mobile">{{ status_name }}</span>
                     </button>
@@ -98,7 +93,6 @@ layout: page
                 {% if promise.category != 'Ships' %}
                 {% continue %}
                 {% endif %}
-
                 <tr class="promise {% if promise.status == 'Not implemented' %}li-warning{% endif %}{% if promise.status == 'In alpha' %}li-info{% endif %}{% if promise.status == 'Completed' %}li-success{% endif %}{% if promise.status == 'Broken' %}li-danger{% endif %}{% if promise.status == 'Stagnant' %}li-stagnant{% endif %}{% if promise.status == 'Compromised' %}li-compromised{% endif %}">
                     <!--<td class="promise__id">{{ forloop.index }}.</td>
                    Numbering promises is slightly annoying because we deal with a lot more promises than TrumpTracker and prefer to sort by date which may change the numbering

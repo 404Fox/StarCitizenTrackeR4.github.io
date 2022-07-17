@@ -94,11 +94,11 @@ layout: page
         <div class="row">
             <ul class="nav nav-tabs" id="myTabs" role="tablist">
                 {% for category in categories %}
-                <li class="nav-item {{ category }}" role="presentation" data-list-facet="js-promise-category" data-facet-value="{{ category }}">
-                    <a class="nav-link text-muted" href="#">
+                <li class="nav-item {{ category }}" role="presentation">
+                    <button class="nav-link text-muted" href="#" data-list-facet="js-promise-category" data-facet-value="{{ category }}">
                         <i class="fa fa-fw fa-{{ icons[category] }}"></i>
                         <span class="remove-on-mobile">{{ category }}</span>
-                    </a>
+                    </button>
                 </li>
                 {% endfor %}
             </ul>
